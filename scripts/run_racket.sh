@@ -3,7 +3,7 @@ if ! command -v racket &> /dev/null
 then
   echo "Racket could not be found, please install Racket and ensure it's in your PATH."
   echo "See README.md for instructions."
-  exit
+  exit 1
 fi
 
 if ! [ -d "./tmp" ]; then
