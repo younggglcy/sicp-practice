@@ -1,0 +1,6 @@
+{
+  "code-runner.executorMap": {
+    "racket": "./scripts/run_racket.sh",
+  },
+  "code-runner.runInTerminal": true
+}
